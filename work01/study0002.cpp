@@ -15,7 +15,7 @@ int main()
     char ss[80];
     int dt;
 
-    fout.open("data.txt");
+    fout.open("_data/data0002.txt");
     if (!fout) {
         cout << "出力ファイルをオープンできません\n";
         return 1;   //戻り値1でプログラム終了
@@ -28,7 +28,7 @@ int main()
 
     fout.close();
 
-    fin.open("data.txt");
+    fin.open("_data/data0002.txt");
     if (!fin) {
         cout << "入力ファイルをオープンできません\n";
         return 1;
